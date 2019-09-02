@@ -1,0 +1,84 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+html{
+    font-family: 'Lato', sans-serif;
+    font-size: 20px;
+    color: #5a5a5a;
+    background-color: #ffffff;
+    text-rendering: optimizeLegibility;
+    /* mac dinh font-size 16px */
+}
+
+body{
+    background-image: url("../img/background.png"); 
+    background-size: cover;
+    background-position: center;
+    height: 100vh; /* view height - full screen */
+    background-attachment: fixed; /*hieu ung chuyen dong*/
+}
+
+form{
+    background-color: rgba(0,0,0, .4);
+    margin: 0 auto;
+    width: 68%;  
+    padding: 20px;
+    /* margin-bottom: 30px; */
+}
+
+p{
+    font-size: 150%;
+    color: white;
+    padding-left: 215px;
+}
+
+textarea{
+    outline: none;
+    padding: 10px;
+    background-color: rgba(48,47,47,.3);
+    border: 1px solid rgba(70,68,68,.7);
+    margin-left: 300px;
+}
+
+textarea{
+    resize: none;
+    height: 100px;
+}
+
+/* .row{
+    max-width: 1140px; 
+    margin: 0 auto;
+} */
+
+.btn{
+    text-decoration: none;
+    color: white;
+    font-size: 22px;
+    background-color: rgba(0,0,0, .4);
+    padding: 15px 30px;
+    border-radius: 20px;
+    margin: 0 5px;
+    width: 190px;
+    display: inline-block;
+    text-align: center;
+    transition: all .3s;
+    margin-left: 292px;
+}
+
+.btn:hover, 
+.btn:active{
+    background-color: rgba(0,0,0, .7);
+}
+
+textarea:focus{
+    color: white;
+    background-color: rgba(48,47,47,.8);
+}
+
+.text{
+    margin-right: 10px;
+}
+
